@@ -120,7 +120,6 @@ public class LandingActivity extends AppCompatActivity implements LoginFragment.
                 if(!isopen){
                     Fragment fragment = new LoginFragment();
                     openFragment(fragment);
-                    Log.d(Integer.toString(getSupportFragmentManager().getBackStackEntryCount()),"Login Count Fragment");
                 }
             }
         });
@@ -132,7 +131,6 @@ public class LandingActivity extends AppCompatActivity implements LoginFragment.
                 if(!isopen){
                     Fragment fragment = new RegisterFragment();
                     openFragment(fragment);
-                    Log.d(Integer.toString(getSupportFragmentManager().getBackStackEntryCount()),"Register Count fragments");
                 }
             }
         });

@@ -39,11 +39,11 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onReceive(Context arg0, Intent intent) {
                 String action = intent.getAction();
-                if (action.equals("FINISH_THIS_MAIN")) {
+                if (action.equals(Constant.finishMain)) {
                     unregisterReceiver(broadcast_reciever);
                     finish();
                 }
-                if(action.equals("NOT_FINISH_THIS_MAIN")){
+                if(action.equals(Constant.notFinishmain)){
                     unregisterReceiver(broadcast_reciever);
                 }
             }
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity
         switch (id){
             case R.id.settings:
                 Intent intent = new Intent(this, SettingActivity.class);
-                registerReceiver(broadcast_reciever, new IntentFilter("FINISH_THIS_MAIN"));
+                registerReceiver(broadcast_reciever, new IntentFilter(Constant.finishMain));
                 startActivity(intent);
                 break;
             case R.id.about:
