@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent" >
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/cyan"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <ImageView android:src="@drawable/tiger"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_marginBottom="24dp"
+                android:layout_gravity="center_horizontal" />
+
+            <!-- Email Label -->
+
+            <EditText android:id="@+id/input_password_again"
+                android:background="@color/black_trans80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:padding="14dp"
+                android:textSize="16dp"
+                android:layout_marginBottom="15dp"
+                android:textColorHint="@color/color_50"
+                android:hint="@string/input_name" />
+
+
+            <EditText android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:layout_marginBottom="15dp"
+                android:padding="14dp"
+                android:textSize="16dp"
+                android:background="@color/black_trans80"
+                android:textColorHint="@color/color_50"
+                android:hint="@string/input_email" />
+
+
+            <!-- Password Label -->
+
+            <EditText android:id="@+id/input_password"
+                android:background="@color/black_trans80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:padding="14dp"
+                android:textSize="16dp"
+                android:layout_marginBottom="15dp"
+                android:textColorHint="@color/color_50"
+                android:hint="@string/input_password" />
+
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_register"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/custom_button"
+                android:backgroundTint="@color/color_50"
+                android:padding="12dp"
+                android:textColor="@color/color_50"
+                android:textAllCaps="false"
+                android:text="@string/btn_register"/>
+
+
+
+            <TextView android:id="@+id/link_signup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:textColor="@color/color_50"
+                android:text="@string/term_register"
+                android:gravity="center"
+                android:textSize="13dip"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">SIA</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Pengaturan</string>
+
+    <!--landing-->
+    <string name="landing_title_one">Selamat Datang</string>
+    <string name="landing_title_two">Awan</string>
+    <string name="landing_title_three">Buat Milikmu</string>
+
+    <string name="landing_desc_one">Selamat datang di SIA (Smart Integrated Attendance) membantu anda menangani absensi dengan mudah.</string>
+    <string name="landing_desc_two">Semua diolah dengan menggunakan komputasi awan. Kami menyediakan API terbuka untuk pekerjaan anda.</string>
+    <string name="landing_desc_three">Buat absensi untuk personal,grub,komunitas,sekolah dll.</string>
+
+    <string name="landing_signin">Masuk</string>
+    <string name="landing_signup">Daftar</string>
+
+    <!--login-->
+    <string name="input_email">Email</string>
+    <string name="input_password">Kata sandi</string>
+    <string name="btn_login">Masuk</string>
+    <string name="forget_pass">Lupa kata sandi? atur ulang kata sandi.</string>
+
+    <!--register-->
+    <string name="input_name">Nama</string>
+    <string name="btn_register">Daftar</string>
+    <string name="term_register">Dengan menekan tombol daftar,anda menyetujui syarat dan ketentuan berlaku.</string>
+
+    <!--reset password -->
+    <string name="reset_password">Reset password</string>
+    <string name="enter_email">Masukkan alamat email anda, kata sandi akan di kirimkan ke alamat email anda.</string>
+
+    <!-- menu drawable navigation-->
+    <string name="about_app">Tentang</string>
+
+    <!--main content -->
+    <string name="title_one">Hadiri Acara</string>
+    <string name="desc_one">Menghadiri acara dan begabung dengan absensi.</string>
+
+    <string name="title_two">Buat Acara</string>
+    <string name="desc_two">Membuat dan mengelola kehadiran acara Anda.</string>
+
+    <string name="title_three">Riwayat Acara</string>
+    <string name="desc_three">Buka acara yang Anda buat untuk melihat orang-orang yang hadir.</string>
+
+    <string name="title_four">Riwayat Kehadiran</string>
+    <string name="desc_four">Melihat acara apa saja yang anda hadiri.</string>
+
+    <!-- setting -->
+
+    <string name="edit_name">Ubah nama</string>
+    <string name="edit_email">Ubah email</string>
+    <string name="edit_password">Ganti kata sandi</string>
+    <string name="reset_pass">Reset sata sandi</string>
+    <string name="log_out">Keluar</string>
+    <string name="done">Selesai</string>
+
+    <string name="name">Nama</string>
+
+    <string name="old_email">Email lama</string>
+    <string name="new_email">Email baru</string>
+</resources>
